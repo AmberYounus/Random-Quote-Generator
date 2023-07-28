@@ -1,22 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import './App.css';
 
-// import axios from 'axios';
-// const options = {
-//   method: 'GET',
-//   url: 'https://quotes15.p.rapidapi.com/quotes/random/',
-//   headers: {
-//     'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-//     'X-RapidAPI-Host': 'quotes15.p.rapidapi.com'
-//   }
-// };
 
-// try {
-// 	const response = await axios.request(options);
-// 	console.log(response.data);
-// } catch (error) {
-// 	console.error(error);
-// }
 
 const App = () => {
   const [quotes, setquotes] = useState('');
